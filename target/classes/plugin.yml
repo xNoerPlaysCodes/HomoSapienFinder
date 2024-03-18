@@ -1,0 +1,26 @@
+name: HomoSapienFinder
+version: '1.0-SNAPSHOT'
+main: net.noerlol.hsf.homosapienfinder
+api-version: '1.20'
+
+commands:
+  hsfenable:
+    description: Enables the HomoSapienFinder plugin
+  hsfdisable:
+    description: Disables the HomoSapienFinder plugin
+  hsf:
+    description: Checks the status of the HomoSapienFinder plugin
+  addHunter:
+    description: Adds a hunter
+  addPlayer:
+    description: Adds a player
+  listhunters:
+    description: Lists all hunters
+  listplayers:
+    description: Lists all players
+  start:
+    description: Actually starts the manhunt
+  setcompass:
+    description: Sets compass to point to particular player
+  hsfreload:
+    description: Reloads HSF config
